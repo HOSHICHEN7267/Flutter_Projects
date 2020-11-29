@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "793416996138",
+    "firebase_url": "https://roadtouniversity-c36c0.firebaseio.com",
+    "project_id": "roadtouniversity-c36c0",
+    "storage_bucket": "roadtouniversity-c36c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793416996138:android:fc5fd1f4e7507d8f2b7a53",
+        "android_client_info": {
+          "package_name": "com.example.roadtouniversity2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793416996138-vtjck298ev2k02tttn9kqeotk700m0jq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roadtouniversity2",
+            "certificate_hash": "1268c63124677012678dc2d43cf13f117bb72f97"
+          }
+        },
+        {
+          "client_id": "793416996138-2ijh2a7g3m4bdtboik59n45crufrqf0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4-CRijrKtDOBxJIGM_hQVtlPB3w8YYSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793416996138-2ijh2a7g3m4bdtboik59n45crufrqf0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
