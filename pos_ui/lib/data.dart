@@ -6,9 +6,9 @@ class ItemData{
   String origin;
   int inventory;
   String id;
-  int inCartNum;
+  String type;
 
-  ItemData({this.pic, this.name, this.price, this.oz, this.origin, this.inventory, this.id, this.inCartNum});
+  ItemData({this.pic, this.name, this.price, this.oz, this.origin, this.inventory, this.id, this.type});
 
   factory ItemData.fromJson(Map<String, dynamic> json){
     return ItemData(
@@ -19,9 +19,28 @@ class ItemData{
       origin: json['origin'] as String,
       inventory: json['inventory'] as int,
       id: json['id'] as String,
-      inCartNum: 0,
+      type: json['type'] as String,
     );
   }
+}
+
+class InCartData{
+  String phone;
+  String item;
+  int number;
+  int price;
+  int inventory;
+  String id;
+  String time;
+
+  InCartData({this.phone, this.item, this.number, this.price, this.inventory, this.id, this.time});
+
+  Map toJson() => {
+    'phone': phone,
+    'item': item,
+    'number': number.toString(),
+    'time': time,
+  };
 }
 
 class DiscountData{
@@ -32,6 +51,6 @@ class DiscountData{
 }
 
 List<DiscountData> discountDatas = [
-  DiscountData('生日優惠', 120),
-  DiscountData('週年慶優惠', 200),
+  DiscountData('生日優惠', 0),
+  DiscountData('週年慶優惠', 0),
 ];
